@@ -12,7 +12,7 @@ st.set_page_config(page_title="Zypher AI Bot", page_icon="🌿", layout="wide")
 # --- DARK MODE & BUBBLES FIX ---
 st.markdown("""
 <style>
-  div[data-testid="stChatMessage"],
+  div[data-testid="stChatMessage"], 
   div[data-testid="stChatMessageList"],
   div[data-testid="stChatInput"] {
       background: transparent !important;
@@ -161,3 +161,5 @@ st.markdown(
     "padding:0.5rem 0;'>🔒 Conversations are end-to-end encrypted.</div>",
     unsafe_allow_html=True
 )
+
+
